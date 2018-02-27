@@ -1,0 +1,18 @@
+include ../variables/variables.jade
+
+<!DOCTYPE html>
+html(lang="es")
+head
+	meta(charset="UTF-8")
+	title Restaurant Chinchano
+body
+	header
+		block header
+	nav
+		include ../blocks/menu.jade
+	main
+		block main
+	footer
+		include ../blocks/footer.jade
+
+	
