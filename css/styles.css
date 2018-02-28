@@ -1,0 +1,26 @@
+
+.banner{
+	width: 100%;
+	padding: 1em;
+}
+.sociales{
+	font-size: 2em;
+	color: black;
+}
+
+.footer__send{
+	font-weight:bolder;
+}
+.footer__send,
+.footer__address,
+.footer__location{
+	display: block;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.footer__address,
+.footer__location{
+	font-weight:100;
+}
+

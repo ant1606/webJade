@@ -3,23 +3,45 @@
 <head>
   <meta charset="UTF-8"/>
   <title>Restaurant Chinchano</title>
+  <link href="css/ed-grid.css" rel="stylesheet"/>
+  <link href="css/styles.css" rel="stylesheet"/>
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" defer="defer"></script>
 </head>
-<body>
-  <header>
-    <h1>Bienvenidos al restaurante </h1>
+<body class="dev">
+  <header class="ed-container" id="header">
+    <div class="ed-item s-100"><img class="banner" src="img/banner.jpg" alt="banner"/></div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#"><span>inicio</span></a></li>
-      <li><a href="#"><span>locales</span></a></li>
-      <li><a href="#"><span>platillos</span></a></li>
-      <li><a href="#"><span>servicios</span></a></li>
-      <li><a href="#"><span>contacto</span></a></li>
-    </ul>
+  <nav id="menu">
+    <ul class="ed-container"></ul>
+    <li class="ed-item s-100"><a href="#"><span>inicio</span></a></li>
+    <li class="ed-item s-100"><a href="#"><span>locales</span></a></li>
+    <li class="ed-item s-100"><a href="#"><span>platillos</span></a></li>
+    <li class="ed-item s-100"><a href="#"><span>servicios</span></a></li>
+    <li class="ed-item s-100"><a href="#"><span>contacto</span></a></li>
   </nav>
-  <main>
-  </main>
-  <footer>
-    <p>Visitanos en nuestros diversos locales</p>
+  <div class="ed-container">
+    <main class="ed-item s-100 ed-container">
+      <section class="intro">
+        <div class="ed-item s-100"><img class="intro__img" src="img/inicio_1.jpg"/></div>
+        <div class="ed-item s-100">
+          <p class="intro__descripcion"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, autem. Ea, dignissimos, assumenda? Natus, aut, hic omnis mollitia aliquid recusandae excepturi deleniti vero tenetur nam facilis sit molestiae sed! Impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos blanditiis quaerat laborum voluptatibus expedita aperiam, magni voluptas, voluptate rerum veniam. Sequi aliquid nulla suscipit perspiciatis, voluptatum eveniet. Quam, perspiciatis fuga.</p>
+        </div>
+      </section>
+      <section class="intro">
+        <div class="ed-item s-100"><img class="intro__img" src="img/inicio_2.jpg"/></div>
+        <div class="ed-item s-100">
+          <p class="intro__descripcion"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, autem. Ea, dignissimos, assumenda? Natus, aut, hic omnis mollitia aliquid recusandae excepturi deleniti vero tenetur nam facilis sit molestiae sed! Impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos blanditiis quaerat laborum voluptatibus expedita aperiam, magni voluptas, voluptate rerum veniam. Sequi aliquid nulla suscipit perspiciatis, voluptatum eveniet. Quam, perspiciatis fuga.</p>
+        </div>
+      </section>
+    </main>
+    <aside class="ed-item s-100 ed-container">
+      <div class="ed-item s-100 main-center">
+        <h2>Redes Sociales</h2>
+      </div>
+      <div class="ed-item s-100 main-distribute"><a class="sociales" href="#"><i class="fab fa-facebook-square"></i></a><a class="sociales" href="#"><i class="fab fa-twitter-square"></i></a><a class="sociales" href="#"><i class="fab fa-youtube-square"></i></a><a class="sociales" href="#"><i class="fab fa-instagram"></i></a></div>
+    </aside>
+  </div>
+  <footer class="ed-container full main-center">
+    <p class="footer__send">Ubicanos en <span class="footer__address">Jr. Ayacucho Plaza Grocio Prado # 12312 </span><span class="footer__location">Chincha - Ica - Perú</span></p>
   </footer>
 </body>
